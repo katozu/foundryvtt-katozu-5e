@@ -1,0 +1,7 @@
+*.log
+CURRENT
+LOCK
+LOG
+LOG.*
+MANIFEST*
+*.ldb
