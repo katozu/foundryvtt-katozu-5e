@@ -1,0 +1,358 @@
+{
+  "folder": "7mPvG7RDWKgd1rWT",
+  "name": "Spell Lists",
+  "_id": "C5OeKSkcM954tiox",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Artificer",
+      "type": "spells",
+      "_id": "1sNuNp7poxpXT2Fr",
+      "system": {
+        "type": "class",
+        "grouping": "level",
+        "description": {
+          "value": "<p>This section presents the Artificer spell list. The spells are organized by spell level and then alphabetized, and each spell’s school of magic is listed. In the Special column, C means the spell requires Concentration, R means it’s a Ritual, and M means it requires a specific Material component.</p>"
+        },
+        "spells": [
+          "Compendium.dnd5e.spells24.Item.phbsplAcidSplash",
+          "Compendium.dnd5e.spells24.Item.phbsplDancingLig",
+          "Compendium.dnd5e.spells24.Item.phbsplElementali",
+          "Compendium.dnd5e.spells24.Item.phbsplFireBolt00",
+          "Compendium.dnd5e.spells24.Item.phbsplGuidance00",
+          "Compendium.dnd5e.spells24.Item.phbsplLight00000",
+          "Compendium.dnd5e.spells24.Item.phbsplMageHand00",
+          "Compendium.dnd5e.spells24.Item.phbsplMending000",
+          "Compendium.dnd5e.spells24.Item.phbsplMessage000",
+          "Compendium.dnd5e.spells24.Item.phbsplPoisonSpra",
+          "Compendium.dnd5e.spells24.Item.phbsplPrestidigi",
+          "Compendium.dnd5e.spells24.Item.phbsplRayofFrost",
+          "Compendium.dnd5e.spells24.Item.phbsplResistance",
+          "Compendium.dnd5e.spells24.Item.phbsplShockingGr",
+          "Compendium.dnd5e.spells24.Item.phbsplSparetheDy",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplThornWhip0",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplThundercla",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplTrueStrike",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplAlarm00000",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplExpeditiou",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplFaerieFire",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplFalseLife0",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplFeatherFal",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplGrease0000",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplIdentify00",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplJump000000",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplLongstride",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplPurifyFood",
+          "Compendium.dnd-players-handbook.spells.Item.phbSanctuary0000",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplAid0000000",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplArcaneLock",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplArcaneVigo",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplBlur000000",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplContinualF",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplDarkvision",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplDragonsBre",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplEnlargeRed",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplHeatMetal0",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplLevitate00",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplMagicMouth",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplMagicWeapo",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplProtection",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplRopeTrick0",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplSpiderClim",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplWeb0000000",
+          "Compendium.world.spells.Item.yNL8MpUkzxKR0K98",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplBlink00000",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplCreateFood",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplElementalW",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplGlyphofWar",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000",
+          "Compendium.dnd-players-handbook.spells.Item.phbProtectionFro",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplRevivify00",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplWaterBreat",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplWaterWalk0",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplArcaneEye0",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplFabricate0",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplLeomundsSe",
+          "Compendium.dnd-players-handbook.spells.Item.phbFaithfulHound",
+          "Compendium.dnd-players-handbook.spells.Item.phbPrivateSanctu",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplOtilukesRe",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplStoneShape",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplSummonCons",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplAnimateObj",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplBigbysHand",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplCircleofPo",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplCreation00",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes",
+          "Compendium.dnd-players-handbook.spells.Item.phbsplWallofSton",
+          "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeBoomingBlade",
+          "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeGreenflameBl",
+          "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeLightningLur",
+          "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeSwordBurst00",
+          "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeTashasCausti",
+          "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeIntellectFor",
+          "Compendium.foundryvtt-katozu-5e.spells.Item.R1NMb0AjP3dP8c5q"
+        ],
+        "unlinkedSpells": [
+          {
+            "name": "Transmute Rock",
+            "system": {
+              "level": 5,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "odCjq0RKIPPIOo1h"
+          },
+          {
+            "name": "Skill Empowerment",
+            "system": {
+              "level": 5,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "MVsAPgr0YQ1aHIEV"
+          },
+          {
+            "name": "Elemental Bane",
+            "system": {
+              "level": 4,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "a84eEzCNsAaZlIHX"
+          },
+          {
+            "name": "Tiny Servant",
+            "system": {
+              "level": 3,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "8GC7tSNhZFz131mL"
+          },
+          {
+            "name": "Flame Arrows",
+            "system": {
+              "level": 3,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "7LbpLpdF5V6VRWBJ"
+          },
+          {
+            "name": "Catnap",
+            "system": {
+              "level": 3,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "UkHE2PdfjqOMI2J5"
+          },
+          {
+            "name": "Skywrite",
+            "system": {
+              "level": 2,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "1pthtBSpCkzGSlWm"
+          },
+          {
+            "name": "Pyrotechnics",
+            "system": {
+              "level": 2,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "AKAWqjdUNNGW1J8T"
+          },
+          {
+            "name": "Snare",
+            "system": {
+              "level": 1,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "IulOfmEv5u7rev9I"
+          },
+          {
+            "name": "Catapult",
+            "system": {
+              "level": 1,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "EIFAb8Y1DcwzGYxi"
+          },
+          {
+            "name": "Absorb Elements",
+            "system": {
+              "level": 1,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "a8lMA9PlgN5ikIDf"
+          },
+          {
+            "name": "Magic Stone",
+            "system": {
+              "level": 0,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "1d4jHNwyDdm9G3NW"
+          },
+          {
+            "name": "Create Bonfire",
+            "system": {
+              "level": 0,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            },
+            "_id": "giJzfjulRnkDTQI1"
+          },
+          {
+            "_id": "Ld7ms5Ro9j3yPRNS",
+            "name": "Frostbite",
+            "system": {
+              "level": 0,
+              "school": ""
+            },
+            "source": {
+              "book": "",
+              "page": "",
+              "custom": "",
+              "uuid": ""
+            }
+          }
+        ],
+        "identifier": "artificer"
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "yrdKzgXfXHeAwF97": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": "yrdKzgXfXHeAwF97",
+        "modifiedTime": 1752853107619
+      },
+      "_key": "!journal.pages!C5OeKSkcM954tiox.1sNuNp7poxpXT2Fr"
+    }
+  ],
+  "categories": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yrdKzgXfXHeAwF97": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752853003365,
+    "modifiedTime": 1752853003365,
+    "lastModifiedBy": "yrdKzgXfXHeAwF97"
+  },
+  "_key": "!journal!C5OeKSkcM954tiox"
+}

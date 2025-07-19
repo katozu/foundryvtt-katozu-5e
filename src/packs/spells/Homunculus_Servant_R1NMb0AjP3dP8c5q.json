@@ -1,0 +1,174 @@
+{
+  "name": "Homunculus Servant",
+  "type": "spell",
+  "img": "icons/creatures/magical/construct-iron-stomping-yellow.webp",
+  "system": {
+    "activities": {
+      "cyUMuX3r1EU2Q5mA": {
+        "type": "summon",
+        "_id": "cyUMuX3r1EU2Q5mA",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "@item.level",
+          "hp": "5 * @item.level",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": true,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "buCq8XnCsdB9XUkm",
+            "uuid": "Compendium.foundryvtt-katozu-5e.actors.Actor.xIcPv9UGXM99BXr1",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>You summon a special homunculus in an unoccupied space within range. This creature uses the <strong>@UUID[Compendium.foundryvtt-katozu-5e.actors.Actor.xIcPv9UGXM99BXr1]{Homunculus Servant}</strong> stat block. If you already have a homunculus from this spell, the homunculus is replaced by the new one.</p><p>You determine the homunculus’s appearance, such as a mechanical-looking bird; winged vials; or miniature, animate cauldrons.</p><h5>Combat</h5><p>The homunculus is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger.</p><h5>Using a Higher-Level Spell Slot</h5><p>Use the spell slot’s level for the spell’s level in the stat block.</p>",
+      "chat": ""
+    },
+    "identifier": "spell-homunculus-servant",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "UA2024",
+      "page": "Artificer",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "hour",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 2,
+    "materials": {
+      "value": "a gem or crystal worth 100+ GP, which the spell consumes",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "material",
+      "ritual"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752853014528,
+    "modifiedTime": 1752853094616,
+    "lastModifiedBy": "yrdKzgXfXHeAwF97"
+  },
+  "_id": "R1NMb0AjP3dP8c5q",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "yrdKzgXfXHeAwF97": 3
+  },
+  "_key": "!items!R1NMb0AjP3dP8c5q"
+}

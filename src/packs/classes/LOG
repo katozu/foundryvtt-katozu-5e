@@ -1,8 +1,0 @@
-2025/07/17-23:12:39.516606 1460c94196c0 Recovering log #4
-2025/07/17-23:12:39.522246 1460c94196c0 Delete type=3 #2
-2025/07/17-23:12:39.522887 1460c94196c0 Delete type=0 #4
-2025/07/17-23:15:54.291622 1460a23ff6c0 Level-0 table #9: started
-2025/07/17-23:15:54.292140 1460a23ff6c0 Level-0 table #9: 0 bytes OK
-2025/07/17-23:15:54.293801 1460a23ff6c0 Delete type=0 #7
-2025/07/17-23:15:54.302033 1460a23ff6c0 Manual compaction at level-0 from '!folders!PEwryi2rV2i1mvwb' @ 72057594037927935 : 1 .. '!folders!obInQpSwa4lvppWO' @ 0 : 0; will stop at (end)
-2025/07/17-23:15:54.302440 1460a23ff6c0 Manual compaction at level-1 from '!folders!PEwryi2rV2i1mvwb' @ 72057594037927935 : 1 .. '!folders!obInQpSwa4lvppWO' @ 0 : 0; will stop at (end)

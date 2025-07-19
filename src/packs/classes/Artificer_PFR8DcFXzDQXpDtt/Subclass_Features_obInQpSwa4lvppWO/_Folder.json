@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "PFR8DcFXzDQXpDtt",
+  "name": "Subclass Features",
+  "color": null,
+  "sorting": "a",
+  "_id": "obInQpSwa4lvppWO",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!obInQpSwa4lvppWO"
+}

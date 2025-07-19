@@ -1,0 +1,77 @@
+{
+  "name": "Magical Tinkering",
+  "type": "feat",
+  "img": "icons/magic/symbols/cog-shield-white-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>1st-level artificer feature</em></p><p>As a Magic action while holding Tinker’s Tools, you can create one item in an unoccupied space within 5 feet of yourself, choosing the item from the following list:</p><ul><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagBallBearing]{Ball Bearings}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagBasket00000]{Basket}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagBedroll0000]{Bedroll}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagBell0000000]{Bell}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagBlanket0000]{Blanket}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagBlockandTac]{Block and Tackle}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagBucket00000]{Bucket}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagCaltrops000]{Caltrops}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagCandle00000]{Candle}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagCrowbar0000]{Crowbar}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagFlask000000]{Flask}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagJug00000000]{Jug}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagLamp0000000]{Lamp}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagNet00000000]{Net}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagOil00000000]{Oil}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagPaper000000]{Paper}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagParchment00]{Parchment}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagPole0000000]{Pole}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagPouch000000]{Pouch}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagRope0000000]{Rope}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagSack0000000]{Sack}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagShovel00000]{Shovel}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagString00000]{String}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagTinderbox00]{Tinderbox}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagTorch000000]{Torch}</li><li>@UUID[Compendium.dnd5e.equipment24.Item.phbagVial0000000]{Vial}</li></ul><p>See the rules for the item in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbEquipment0000]{Player’s Handbook}. The item vanishes after 1 hour.</p><p>You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": "",
+      "revision": 2,
+      "rules": "2014"
+    },
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "max(@abilities.int.mod,1)",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "spent": 0
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "properties": [
+      "mgc",
+      "trait"
+    ],
+    "requirements": "Artificer 1",
+    "prerequisites": {
+      "level": 1,
+      "repeatable": false
+    },
+    "activities": {},
+    "identifier": "magical-tinkering",
+    "advancement": [],
+    "enchant": {}
+  },
+  "effects": [],
+  "folder": "PEwryi2rV2i1mvwb",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      },
+      "migratedUses": null
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1752846505843,
+    "modifiedTime": 1752847313741,
+    "lastModifiedBy": "yrdKzgXfXHeAwF97"
+  },
+  "_id": "h7W0KnqqhbeEz7pW",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "yrdKzgXfXHeAwF97": 3
+  },
+  "_key": "!items!h7W0KnqqhbeEz7pW"
+}

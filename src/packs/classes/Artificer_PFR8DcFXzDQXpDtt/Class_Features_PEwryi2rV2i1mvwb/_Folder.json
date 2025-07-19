@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "PFR8DcFXzDQXpDtt",
+  "name": "Class Features",
+  "color": null,
+  "sorting": "a",
+  "_id": "PEwryi2rV2i1mvwb",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!PEwryi2rV2i1mvwb"
+}
