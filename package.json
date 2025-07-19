@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "extract": "node scripts/extract.js",
-    "compile": "node scripts/compile.js"
+    "compile": "rm -rf build/* && mkdir -p build/katozu-5e && node scripts/compile.js && cp -r src/assets build/katozu-5e/assets && cp src/module.json build/katozu-5e/module.json && cp README.md build/katozu-5e/README.md",
+    "build": "npm run compile",
+    "pack": "rm -rf dist/* && mkdir -p dist && (cd build/katozu-5e; zip -r ../../dist/katozu-5e.zip *) && cp build/katozu-5e/module.json dist/module.json"
   },
   "repository": {
     "type": "git",
