@@ -1,0 +1,51 @@
+{
+  "id": "katozu-5e",
+  "title": "Katozu-5e",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Katozu",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/katozu/foundryvtt-katozu-5e",
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "Katozu-5e",
+      "sorting": "a",
+      "packs": [
+        "classes"
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "description": ""
+}
