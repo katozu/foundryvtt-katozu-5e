@@ -1,7 +1,7 @@
 {
   "name": "Homunculus Servant",
   "type": "npc",
-  "img": "modules/foundryvtt-katozu-5e/assets/character-options/artificer-homunculus.webp",
+  "img": "modules/katozu-5e/assets/character-options/artificer-homunculus.webp",
   "system": {
     "currency": {
       "pp": 0,
@@ -614,7 +614,7 @@
     "width": 0.5,
     "height": 0.5,
     "texture": {
-      "src": "modules/foundryvtt-katozu-5e/assets/character-options/artificer-homunculus.webp",
+      "src": "modules/katozu-5e/assets/character-options/artificer-homunculus.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
