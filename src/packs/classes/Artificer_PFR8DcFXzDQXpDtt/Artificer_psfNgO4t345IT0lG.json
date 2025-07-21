@@ -305,20 +305,6 @@
       },
       {
         "type": "AbilityScoreImprovement",
-        "_id": "AL3yM9wnmNVKNkuk",
-        "configuration": {
-          "cap": 2,
-          "fixed": {},
-          "locked": [],
-          "points": 2
-        },
-        "value": {
-          "type": "asi"
-        },
-        "level": 1
-      },
-      {
-        "type": "AbilityScoreImprovement",
         "_id": "B9zJ0AAM9NjyRyPH",
         "configuration": {
           "cap": 2,
@@ -550,7 +536,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.0.4",
     "createdTime": 1752843347080,
-    "modifiedTime": 1753114624662,
+    "modifiedTime": 1753124916556,
     "lastModifiedBy": "yrdKzgXfXHeAwF97"
   },
   "_key": "!items!psfNgO4t345IT0lG"
