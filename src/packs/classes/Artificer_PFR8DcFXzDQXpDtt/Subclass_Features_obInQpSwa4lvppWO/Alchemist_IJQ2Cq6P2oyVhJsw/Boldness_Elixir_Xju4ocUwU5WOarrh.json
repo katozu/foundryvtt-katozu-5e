@@ -1,0 +1,231 @@
+{
+  "name": "Boldness Elixir",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-round-label-cork-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>The drinker can roll a [[/r d4]] and add the number rolled to every attack roll and saving throw they make for the next minute.</p><section class=\"secret\" id=\"secret-FgRLynz0dmWQY22K\"><p><strong>Foundry Note</strong></p><p>This elixir includes an Active Effect for automating the addition of the 1d4 but it does not automatically expire.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "revision": 1,
+      "rules": "2014"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "equipped": false,
+    "uses": {
+      "max": "1",
+      "recovery": [],
+      "autoDestroy": true,
+      "spent": 0
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "properties": [],
+    "activities": {
+      "AA28jXcGbNziQHO4": {
+        "type": "utility",
+        "name": "Use Boldness Elixir",
+        "sort": 600000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "F8N7VMuYgCwToUZ5"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "AA28jXcGbNziQHO4"
+      }
+    },
+    "identifier": "boldness-elixir",
+    "attuned": false,
+    "magicalBonus": null
+  },
+  "effects": [
+    {
+      "name": "Boldness Elixir",
+      "origin": "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeElixirBoldne",
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {}
+      },
+      "_id": "F8N7VMuYgCwToUZ5",
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": true,
+      "statuses": [],
+      "tint": "#ffffff",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": null
+      },
+      "img": "icons/consumables/potions/bottle-round-label-cork-yellow.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!Xju4ocUwU5WOarrh.F8N7VMuYgCwToUZ5"
+    }
+  ],
+  "folder": "IJQ2Cq6P2oyVhJsw",
+  "flags": {
+    "core": {},
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      },
+      "migratedUses": 1
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1753116761003,
+    "modifiedTime": 1753116761094,
+    "lastModifiedBy": "yrdKzgXfXHeAwF97"
+  },
+  "_id": "Xju4ocUwU5WOarrh",
+  "sort": 25000,
+  "ownership": {
+    "default": 0,
+    "yrdKzgXfXHeAwF97": 3
+  },
+  "_key": "!items!Xju4ocUwU5WOarrh"
+}

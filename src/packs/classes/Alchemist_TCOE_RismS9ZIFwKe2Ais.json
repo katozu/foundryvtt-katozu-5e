@@ -1,0 +1,352 @@
+{
+  "name": "Alchemist TCOE",
+  "type": "subclass",
+  "img": "icons/tools/laboratory/vials-blue-pink.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote class=\"tasha\"><p>The magic of both alchemists and witches relies on a powerful multiversal truth: mortals can’t resist anything with bubbles.</p><p><cite>Tasha</cite></p></blockquote><p>An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "TCoE",
+      "page": "",
+      "custom": "",
+      "license": "",
+      "revision": 2,
+      "rules": "2014"
+    },
+    "identifier": "alchemist",
+    "classIdentifier": "artificer",
+    "advancement": [
+      {
+        "_id": "uAp8thEY6wsFiLRG",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "tool:art:alchemist"
+          ],
+          "choices": []
+        },
+        "level": 3,
+        "title": "Tool Proficiency",
+        "icon": null,
+        "value": {
+          "chosen": []
+        },
+        "hint": "You gain proficiency with alchemist’s supplies. If you already have this proficiency, you gain proficiency with one other type of artisan’s tools of your choice."
+      },
+      {
+        "_id": "xDxnRMRpf9xQHucG",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoealcSpells000",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoealcExperimen",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoealcToolProfi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Features",
+        "icon": null
+      },
+      {
+        "_id": "poXGvRaNW6BvDxty",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoealcAlchemica",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "Alchemical Savant",
+        "icon": null
+      },
+      {
+        "_id": "j8zETKNfWGPjj1F2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoealcRestorati",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "Features",
+        "icon": null
+      },
+      {
+        "_id": "4IP6eA24WiCxf15B",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoealcChemicalM",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Features",
+        "icon": null
+      },
+      {
+        "_id": "KU4n0O39bXVSkzQf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.o8Dh7fblk1d16tnO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Alchemist Spells",
+        "icon": null
+      },
+      {
+        "_id": "dPj7LOgwmEHdL7Vm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.FjYE214HTERCRZNm",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.4H6YgYdKgnX6ZQ8M",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Alchemist Spells",
+        "icon": null
+      },
+      {
+        "_id": "6XIuKfPu4voktvsF",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.2IWiZAJtOGDoKjiz"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.34ddoYIrnOZ2GFYi"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Alchemist Spells",
+        "icon": null
+      },
+      {
+        "_id": "AGi8jOghqq8G5XNE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.pybg5MNc3lkerH4Y"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Alchemist Spells",
+        "icon": null
+      },
+      {
+        "_id": "MZ77jLErls3FlB39",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.LkvI11Uue774QBKZ"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.AGFMPAmuzwWO6Dfz"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              ""
+            ],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Alchemist Spells",
+        "icon": null
+      },
+      {
+        "_id": "o1UQh557HlfxgcI3",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "elixir",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": "1"
+            },
+            "6": {
+              "value": "2"
+            },
+            "15": {
+              "value": "3"
+            }
+          }
+        },
+        "value": {},
+        "title": "Max Elixir Creations",
+        "icon": null
+      },
+      {
+        "_id": "ZyDfyvjlZpih727R",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:acid",
+            "dr:poison",
+            "ci:poisoned"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 15,
+        "title": "Chemical Mastery",
+        "icon": null,
+        "hint": "You gain resistance to acid damage and poison damage, and you are immune to the poisoned condition."
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": "",
+      "preparation": {
+        "formula": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1753114729619,
+    "modifiedTime": 1753114933690,
+    "lastModifiedBy": "yrdKzgXfXHeAwF97"
+  },
+  "_id": "RismS9ZIFwKe2Ais",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "yrdKzgXfXHeAwF97": 3
+  },
+  "_key": "!items!RismS9ZIFwKe2Ais"
+}

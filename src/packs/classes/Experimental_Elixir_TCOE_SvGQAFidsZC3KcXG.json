@@ -1,0 +1,1714 @@
+{
+  "name": "Experimental Elixir TCOE",
+  "type": "feat",
+  "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+  "system": {
+    "description": {
+      "value": "<p>Whenever you finish a long rest, you can magically produce an experimental elixir in an empty @UUID[Compendium.dnd-tashas-cauldron.tcoe-magic-items.Item.tcoeFlask0000000]{flask} you touch. Roll on the @UUID[Compendium.dnd-tashas-cauldron.tcoe-tables.RollTable.tcoeExperimental]{Experimental Elixir} table for the elixir’s effect, which is triggered when someone drinks the elixir. As an action, a creature can drink the elixir or administer it to an &amp;Reference[incapacitated] creature.</p><p>You can create additional experimental elixirs by expending a spell slot of 1st level or higher for each one. When you do so, you use your action to create the elixir in an empty flask you touch, and you choose the elixir’s effect from the Experimental Elixir table below.</p><p>Creating an experimental elixir requires you to have @UUID[Compendium.dnd5e.items.Item.SztwZhbhZeCqyAes]{alchemist's supplies} on your person, and any elixir you create with this feature lasts until it is drunk or until the end of your next long rest.</p><p>When you reach certain levels in this class, you can make more elixirs at the end of a long rest: two at 6th level and three at 15th level. Roll for each elixir’s effect separately. Each elixir requires its own flask.</p><p>@Embed[Compendium.dnd-tashas-cauldron.tcoe-tables.RollTable.tcoeExperimental caption=false]</p><section class=\"secret\" id=\"secret-2SHwgsUwqPUOdFTR\"><p><strong>Foundry Note</strong></p><p>This feature automatically scales the number of free uses.</p><p>Use the <strong>Infuse with Spell Slot</strong> activity to expend a spell slot of a chosen level.</p><p>To create the experimental elixir you can either drag one of the elixirs above onto your character sheet or you can use the enchantments included with this feature. The flask item should be a Consumable to be used with these enchantments.</p></section>",
+      "chat": ""
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": "",
+      "revision": 2,
+      "rules": "2014"
+    },
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "@scale.alchemist.elixir",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "spent": 0
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "properties": [],
+    "requirements": "Alchemist 3",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false
+    },
+    "activities": {
+      "vB94lMDYQFKBQw4D": {
+        "type": "enchant",
+        "name": "Infuse Flask",
+        "_id": "vB94lMDYQFKBQw4D",
+        "sort": 100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "isAas71MI6AaUslY",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "SO4kw28JjUGexUeG"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "6XRoybhPhAwcBD75",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "EIj6Q4Xzal95W9P2"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "wWRy5mLE7VhbJhc6",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "iwctMyBk4RVlHTBp"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "4WUxuPFqYLHaLaCw",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "wWScyEg3lZTTkjHV"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "8O8kNc72au8mMV3s",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "JWN7LAWJzi1V9WWN"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "KwunibUe39FRSTqz",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "AUKQtfo8zOTM5CRC"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "touch",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "object",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": "consumable"
+        }
+      },
+      "SO4kw28JjUGexUeG": {
+        "type": "heal",
+        "name": "Use Healing Elixir",
+        "_id": "SO4kw28JjUGexUeG",
+        "sort": 200000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": 2,
+          "denomination": 4,
+          "types": [],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": "@abilities.int.mod"
+        }
+      },
+      "EIj6Q4Xzal95W9P2": {
+        "type": "utility",
+        "name": "Use Swiftness Elixir",
+        "_id": "EIj6Q4Xzal95W9P2",
+        "sort": 400000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "o7bBh25LXZDTJCQC"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      },
+      "iwctMyBk4RVlHTBp": {
+        "type": "utility",
+        "name": "Use Resilience Elixir",
+        "sort": 500000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "2ybMzNqFDrBOZdFB"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "iwctMyBk4RVlHTBp"
+      },
+      "wWScyEg3lZTTkjHV": {
+        "type": "utility",
+        "name": "Use Boldness Elixir",
+        "sort": 600000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "07BesN8uT13w7KGR"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "wWScyEg3lZTTkjHV"
+      },
+      "JWN7LAWJzi1V9WWN": {
+        "type": "utility",
+        "name": "Use Flight Elixir",
+        "sort": 700000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "N0mXaMNVch7Rukh5"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "JWN7LAWJzi1V9WWN"
+      },
+      "AUKQtfo8zOTM5CRC": {
+        "type": "utility",
+        "name": "Use Transformation Elixir",
+        "sort": 800000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "AUKQtfo8zOTM5CRC"
+      },
+      "9XfmRhjGcjwoUIsn": {
+        "type": "enchant",
+        "name": "Infuse Flask with Spell Slot",
+        "sort": 150000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "9"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "1",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "isAas71MI6AaUslY",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "SO4kw28JjUGexUeG"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "6XRoybhPhAwcBD75",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "EIj6Q4Xzal95W9P2"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "wWRy5mLE7VhbJhc6",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "iwctMyBk4RVlHTBp"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "4WUxuPFqYLHaLaCw",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "wWScyEg3lZTTkjHV"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "8O8kNc72au8mMV3s",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "JWN7LAWJzi1V9WWN"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "KwunibUe39FRSTqz",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "AUKQtfo8zOTM5CRC"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "touch",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "object",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": "consumable"
+        },
+        "_id": "9XfmRhjGcjwoUIsn"
+      }
+    },
+    "identifier": "experimental-elixir",
+    "advancement": [],
+    "enchant": {}
+  },
+  "effects": [
+    {
+      "name": "Healing Elixir",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": []
+          },
+          "riders": {
+            "statuses": []
+          },
+          "persistSourceMigration": true
+        }
+      },
+      "_id": "isAas71MI6AaUslY",
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Healing Elixir",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "icons/consumables/potions/bottle-round-label-cork-red.webp",
+          "priority": null
+        },
+        {
+          "key": "system.type.value",
+          "mode": 5,
+          "value": "potion",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p>The drinker regains a number of hit points equal to [[/r 2d4 + @abilities.int.mod]].</p>",
+          "priority": null
+        },
+        {
+          "key": "system.uses.max",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.uses.per",
+          "mode": 5,
+          "value": "charges",
+          "priority": null
+        },
+        {
+          "key": "system.uses.autoDestroy",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "transfer": false,
+      "statuses": [],
+      "tint": "#ffffff",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": null
+      },
+      "img": "icons/consumables/potions/bottle-round-label-cork-red.webp",
+      "type": "enchantment",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!SvGQAFidsZC3KcXG.isAas71MI6AaUslY"
+    },
+    {
+      "name": "Swiftness Elixir",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": [
+              "o7bBh25LXZDTJCQC"
+            ]
+          },
+          "riders": {
+            "statuses": []
+          },
+          "persistSourceMigration": true
+        }
+      },
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Swiftness Elixir",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "icons/consumables/potions/bottle-round-label-cork-green.webp",
+          "priority": null
+        },
+        {
+          "key": "system.type.value",
+          "mode": 5,
+          "value": "potion",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p>The drinker’s walking speed increases by 10 feet for 1 hour.</p><section id=\"secret-ZGML4v9vuF3vRdP9\" class=\"secret\">     <p><strong>Foundry Note</strong></p>     <p>This elixir includes an Active Effect that will increase your walking speed.</p> </section>",
+          "priority": null
+        },
+        {
+          "key": "system.uses.max",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.uses.per",
+          "mode": 5,
+          "value": "charges",
+          "priority": null
+        },
+        {
+          "key": "system.uses.autoDestroy",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "transfer": false,
+      "statuses": [],
+      "tint": "#ffffff",
+      "_id": "6XRoybhPhAwcBD75",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": null
+      },
+      "img": "icons/consumables/potions/bottle-round-label-cork-green.webp",
+      "type": "enchantment",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!SvGQAFidsZC3KcXG.6XRoybhPhAwcBD75"
+    },
+    {
+      "name": "Resilience Elixir",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": [
+              "2ybMzNqFDrBOZdFB"
+            ]
+          },
+          "persistSourceMigration": true
+        }
+      },
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Resilience Elixir",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "icons/consumables/potions/bottle-round-label-cork-purple.webp",
+          "priority": null
+        },
+        {
+          "key": "system.activation.cost",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.activation.type",
+          "mode": 5,
+          "value": "action",
+          "priority": null
+        },
+        {
+          "key": "system.type.value",
+          "mode": 5,
+          "value": "potion",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p>The drinker gains a +1 bonus to AC for 10 minutes.</p> <section class=\"secret\" id=\"secret-0U8IBC83PgghcoRI\">     <p><strong>Foundry Note</strong></p>     <p>This potion includes an Active Effect which grants the AC bonus.</p> </section>",
+          "priority": null
+        },
+        {
+          "key": "system.uses.max",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.uses.value",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.uses.prompt",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        },
+        {
+          "key": "system.uses.per",
+          "mode": 5,
+          "value": "charges",
+          "priority": null
+        },
+        {
+          "key": "system.uses.autoDestroy",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.duration.units",
+          "mode": 5,
+          "value": "minute",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "transfer": false,
+      "statuses": [],
+      "tint": "#ffffff",
+      "_id": "wWRy5mLE7VhbJhc6",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": null
+      },
+      "img": "icons/consumables/potions/bottle-round-label-cork-purple.webp",
+      "type": "enchantment",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!SvGQAFidsZC3KcXG.wWRy5mLE7VhbJhc6"
+    },
+    {
+      "name": "Boldness Elixir",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": [
+              "07BesN8uT13w7KGR"
+            ]
+          },
+          "persistSourceMigration": true
+        }
+      },
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Boldness Elixir",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "icons/consumables/potions/bottle-round-label-cork-yellow.webp",
+          "priority": null
+        },
+        {
+          "key": "system.activation.cost",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.activation.type",
+          "mode": 5,
+          "value": "action",
+          "priority": null
+        },
+        {
+          "key": "system.type.value",
+          "mode": 5,
+          "value": "potion",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p>The drinker can roll a [[/r d4]] and add the number rolled to every attack roll and saving throw they make for the next minute.</p>",
+          "priority": null
+        },
+        {
+          "key": "system.uses.max",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.uses.value",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.uses.prompt",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        },
+        {
+          "key": "system.uses.per",
+          "mode": 5,
+          "value": "charges",
+          "priority": null
+        },
+        {
+          "key": "system.uses.autoDestroy",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.duration.units",
+          "mode": 5,
+          "value": "minute",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "transfer": false,
+      "statuses": [],
+      "tint": "#ffffff",
+      "_id": "4WUxuPFqYLHaLaCw",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": null
+      },
+      "img": "icons/consumables/potions/bottle-round-label-cork-yellow.webp",
+      "type": "enchantment",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!SvGQAFidsZC3KcXG.4WUxuPFqYLHaLaCw"
+    },
+    {
+      "name": "Flight Elixir",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": [
+              "N0mXaMNVch7Rukh5"
+            ]
+          },
+          "persistSourceMigration": true
+        }
+      },
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Flight Elixir",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+          "priority": null
+        },
+        {
+          "key": "system.activation.cost",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.activation.type",
+          "mode": 5,
+          "value": "action",
+          "priority": null
+        },
+        {
+          "key": "system.type.value",
+          "mode": 5,
+          "value": "potion",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p>The drinker gains a flying speed of 10 feet for 10 minutes.</p> <section class=\"secret\" id=\"secret-SMIiwc3JQgt58G8r\">     <p><strong>Foundry Note</strong></p>     <p>This elixir includes an Active Effect which grants the flying speed. It does not automatically expire.</p> </section>",
+          "priority": null
+        },
+        {
+          "key": "system.uses.max",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.uses.value",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.uses.prompt",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        },
+        {
+          "key": "system.uses.per",
+          "mode": 5,
+          "value": "charges",
+          "priority": null
+        },
+        {
+          "key": "system.uses.autoDestroy",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.duration.units",
+          "mode": 5,
+          "value": "minute",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "transfer": false,
+      "statuses": [],
+      "tint": "#ffffff",
+      "_id": "8O8kNc72au8mMV3s",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": null
+      },
+      "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+      "type": "enchantment",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!SvGQAFidsZC3KcXG.8O8kNc72au8mMV3s"
+    },
+    {
+      "name": "Swiftness Elixir",
+      "origin": "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoealcExperimen",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "o7bBh25LXZDTJCQC",
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "description": "<p>The drinker’s walking speed increases by 10 feet for 1 hour.</p>",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "core": {},
+        "dnd5e": {}
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": null
+      },
+      "img": "icons/consumables/potions/bottle-round-label-cork-green.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!SvGQAFidsZC3KcXG.o7bBh25LXZDTJCQC"
+    },
+    {
+      "name": "Resilience Elixir",
+      "origin": "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoealcExperimen",
+      "duration": {
+        "rounds": 1,
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "2ybMzNqFDrBOZdFB",
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "description": "<p>The drinker gains a +1 bonus to AC for 10 minutes.</p>",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "core": {},
+        "dnd5e": {}
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": null
+      },
+      "img": "icons/consumables/potions/bottle-round-label-cork-purple.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!SvGQAFidsZC3KcXG.2ybMzNqFDrBOZdFB"
+    },
+    {
+      "name": "Boldness Elixir",
+      "origin": "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoealcExperimen",
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "flags": {
+        "dnd5e": {},
+        "core": {}
+      },
+      "_id": "07BesN8uT13w7KGR",
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        }
+      ],
+      "description": "",
+      "transfer": false,
+      "statuses": [],
+      "tint": "#ffffff",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": null
+      },
+      "img": "icons/consumables/potions/bottle-round-label-cork-yellow.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!SvGQAFidsZC3KcXG.07BesN8uT13w7KGR"
+    },
+    {
+      "name": "Flight Elixir",
+      "origin": "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoealcExperimen",
+      "duration": {
+        "rounds": null,
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "disabled": false,
+      "_id": "N0mXaMNVch7Rukh5",
+      "changes": [
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 4,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "description": "<p>The drinker gains a flying speed of 10 feet for 10 minutes.</p>",
+      "transfer": false,
+      "statuses": [],
+      "flags": {
+        "core": {},
+        "dnd5e": {}
+      },
+      "tint": "#ffffff",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": null
+      },
+      "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+      "type": "base",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!SvGQAFidsZC3KcXG.N0mXaMNVch7Rukh5"
+    },
+    {
+      "name": "Transformation Elixir",
+      "flags": {
+        "dnd5e": {
+          "enchantment": {
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": []
+          },
+          "persistSourceMigration": true
+        }
+      },
+      "_id": "KwunibUe39FRSTqz",
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "Transformation Elixir",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p>The drinker’s body is transformed as if by the @UUID[Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx]{alter self} spell. The drinker determines the transformation caused by the spell, the effects of which last for 10 minutes.</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "icons/consumables/potions/bottle-round-label-cork-blue.webp",
+          "priority": null
+        },
+        {
+          "key": "system.activation.cost",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.activation.type",
+          "mode": 5,
+          "value": "action",
+          "priority": null
+        },
+        {
+          "key": "system.type.value",
+          "mode": 5,
+          "value": "potion",
+          "priority": null
+        },
+        {
+          "key": "system.uses.max",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.uses.value",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.uses.prompt",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        },
+        {
+          "key": "system.uses.per",
+          "mode": 5,
+          "value": "charges",
+          "priority": null
+        },
+        {
+          "key": "system.uses.autoDestroy",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        },
+        {
+          "key": "system.duration.value",
+          "mode": 5,
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.duration.units",
+          "mode": 5,
+          "value": "minute",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "transfer": false,
+      "statuses": [],
+      "tint": "#ffffff",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": null
+      },
+      "img": "icons/consumables/potions/bottle-round-label-cork-blue.webp",
+      "type": "enchantment",
+      "system": {},
+      "sort": 0,
+      "_key": "!items.effects!SvGQAFidsZC3KcXG.KwunibUe39FRSTqz"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "SO4kw28JjUGexUeG",
+          "EIj6Q4Xzal95W9P2",
+          "iwctMyBk4RVlHTBp",
+          "wWScyEg3lZTTkjHV",
+          "JWN7LAWJzi1V9WWN",
+          "AUKQtfo8zOTM5CRC"
+        ],
+        "effect": [
+          "o7bBh25LXZDTJCQC",
+          "2ybMzNqFDrBOZdFB",
+          "07BesN8uT13w7KGR",
+          "N0mXaMNVch7Rukh5"
+        ]
+      },
+      "migratedUses": null
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1753115639984,
+    "modifiedTime": 1753116593099,
+    "lastModifiedBy": "yrdKzgXfXHeAwF97"
+  },
+  "_id": "SvGQAFidsZC3KcXG",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "yrdKzgXfXHeAwF97": 3
+  },
+  "_key": "!items!SvGQAFidsZC3KcXG"
+}

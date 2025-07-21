@@ -1,0 +1,129 @@
+{
+  "name": "The Right Tool for the Job",
+  "type": "feat",
+  "img": "icons/commodities/tech/diode-copper.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>3rd-level artificer feature</em></p><p>The list of items you can create with@UUID[Compendium.katozu-5e.classes.Item.h7W0KnqqhbeEz7pW]{Magical Tinkering} now includes Artisan’s Tools, which are described in the @UUID[Compendium.dnd-players-handbook.content.JournalEntry.phbEquipment0000.JournalEntryPage.ibFcHkHH1icuT3l8]{Player’s Handbook}.</p><p></p><h5>Artisan's Tools</h5><p>@UUID[Compendium.dnd5e.items.Item.SztwZhbhZeCqyAes]{Alchemist's Supplies}</p><p>@UUID[Compendium.dnd5e.items.Item.Y9S75go1hLMXUD48]{Brewer's Supplies}</p><p>@UUID[Compendium.dnd5e.items.Item.jhjo20QoiD5exf09]{Calligrapher's Supplies}</p><p>@UUID[Compendium.dnd5e.items.Item.8NS6MSOdXtUqD7Ib]{Carpenter's Tools}</p><p>@UUID[Compendium.dnd5e.items.Item.fC0lFK8P4RuhpfaU]{Cartographer's Tools}</p><p>@UUID[Compendium.dnd5e.items.Item.hM84pZnpCqKfi8XH]{Cobbler's Tools}</p><p>@UUID[Compendium.dnd5e.items.Item.Gflnp29aEv5Lc1ZM]{Cook's Utensils}</p><p>@UUID[Compendium.dnd5e.items.Item.rTbVrNcwApnuTz5E]{Glassblower's Tools}</p><p>@UUID[Compendium.dnd5e.items.Item.YfBwELTgPFHmQdHh]{Jeweler's Tools}</p><p>@UUID[Compendium.dnd5e.items.Item.PUMfwyVUbtyxgYbD]{Leatherworker's Tools}</p><p>@UUID[Compendium.dnd5e.items.Item.skUih6tBvcBbORzA]{Mason's Tools}</p><p>@UUID[Compendium.dnd5e.items.Item.ccm5xlWhx74d6lsK]{Painter's Supplies}</p><p>@UUID[Compendium.dnd5e.items.Item.KndVe2insuctjIaj]{Smith's Tools}</p><p>@UUID[Compendium.dnd5e.items.Item.0d08g1i5WXnNrCNA]{Tinker's Tools}</p><p>@UUID[Compendium.dnd5e.items.Item.ap9prThUB2y9lDyj]{Weaver's Tools}</p><p>@UUID[Compendium.dnd5e.items.Item.xKErqkLo4ASYr5EP]{Woodcarver's Tools}</p>",
+      "chat": "<p>You’ve learned how to produce exactly the tool you need: with thieves’ tools or artisan’s tools in hand, you can magically create one set of artisan’s tools in an unoccupied space within 5 feet of you. This creation requires 1 hour of uninterrupted work, which can coincide with a short or long rest. Though the product of magic, the tools are nonmagical, and they vanish when you use this feature again.</p>"
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": "",
+      "revision": null,
+      "rules": "2024"
+    },
+    "cover": null,
+    "crewed": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "properties": [],
+    "requirements": "Artificer 3",
+    "prerequisites": {
+      "level": 3,
+      "repeatable": false
+    },
+    "activities": {
+      "pICUUbltDINCikbq": {
+        "type": "utility",
+        "_id": "pICUUbltDINCikbq",
+        "sort": 0,
+        "activation": {
+          "type": "hour",
+          "value": 1,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "space",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": ""
+      }
+    },
+    "identifier": "",
+    "advancement": [],
+    "enchant": {}
+  },
+  "effects": [],
+  "folder": "PEwryi2rV2i1mvwb",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1753114137340,
+    "modifiedTime": 1753114427487,
+    "lastModifiedBy": "yrdKzgXfXHeAwF97"
+  },
+  "_id": "UpsFHMnJS77FsCOU",
+  "sort": 50000,
+  "ownership": {
+    "default": 0,
+    "yrdKzgXfXHeAwF97": 3
+  },
+  "_key": "!items!UpsFHMnJS77FsCOU"
+}

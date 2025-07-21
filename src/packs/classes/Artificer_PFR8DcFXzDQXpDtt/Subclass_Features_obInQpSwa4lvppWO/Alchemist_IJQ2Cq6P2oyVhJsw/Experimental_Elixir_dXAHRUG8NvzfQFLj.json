@@ -1,0 +1,68 @@
+{
+  "folder": "IJQ2Cq6P2oyVhJsw",
+  "name": "Experimental Elixir",
+  "type": "feat",
+  "_id": "dXAHRUG8NvzfQFLj",
+  "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.alchemist.elixir"
+    },
+    "description": {
+      "value": "<p>Whenever you finish a Long Rest while holding Alchemist’s Supplies, you can use that tool to magically produce two elixirs. For each elixir, roll on the Experimental Elixir table for the elixir’s effect, which is triggered when someone drinks the elixir. The elixir appears in a vial, and the vial vanishes when the elixir is drunk or poured out. If any elixir remains when you finish a Long Rest, the elixir and its vial vanish.</p><h5>Drinking an Elixir</h5><p>As a Bonus Action, a creature can drink the elixir or administer it to another creature within 5 feet of itself.</p><h5>Creating Additional Elixirs</h5><p>As a Magic action while holding Alchemist’s Supplies, you can expend one spell slot to create another elixir. When you do so, you choose its effect from the Experimental Elixir table rather than rolling.</p><p>When you reach certain Artificer levels, you can make an additional elixir at the end of each Long Rest: a total of three at level 5, four at level 9, and 5 at level 15.</p><p></p><p>@Embed[Compendium.katozu-5e.tables.RollTable.VBRcZ8QnTu84pZzW]{Experimental Elixirs}</p><p></p>",
+      "chat": ""
+    },
+    "identifier": "new-item",
+    "source": {
+      "revision": 1,
+      "rules": "2024"
+    },
+    "advancement": [],
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "repeatable": false,
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "Alchemist 3",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yrdKzgXfXHeAwF97": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1753115629532,
+    "modifiedTime": 1753118025470,
+    "lastModifiedBy": "yrdKzgXfXHeAwF97"
+  },
+  "_key": "!items!dXAHRUG8NvzfQFLj"
+}

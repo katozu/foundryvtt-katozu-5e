@@ -1,0 +1,268 @@
+{
+  "folder": "PFR8DcFXzDQXpDtt",
+  "name": "Alchemist",
+  "type": "subclass",
+  "_id": "gpS3CyzbMkLEDc2b",
+  "img": "icons/tools/laboratory/vials-blue-pink.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>Craft Magic Elixirs and Potions</p></blockquote><p>An Alchemist is an expert at combining reagents to produce magical effects. Alchemists use their creations to give life and to leech it away.</p>",
+      "chat": ""
+    },
+    "identifier": "alchemist",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "UA2024",
+      "page": "Artificer",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "M3wAOQyRbMJXndfD",
+        "configuration": {
+          "allowReplacements": true,
+          "choices": [
+            {
+              "count": 1,
+              "pool": []
+            }
+          ],
+          "grants": [
+            "tool:art:alchemist"
+          ],
+          "mode": "default"
+        },
+        "level": 3,
+        "title": "Tool Proficiency",
+        "hint": "You gain proficiency with Alchemist’s Supplies. If\n    you already have this proficiency, you gain\n    proficiency with one other type of Artisan’s\n    Tools of your choice.\n    In addition, when you brew a potion using the\n    crafting rules in the Dungeon Master’s Guide, the\n    amount of time required to craft it is halved.",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "nc12HVTCoEAq0ry5",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplHealingWor",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplRayofSickn",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "Alchemist Spells",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplFlamingSph",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplMelfsAcidA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "Alchemist Spells",
+        "hint": "",
+        "_id": "XoQNTiNZlFyPJuAC"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplGaseousFor",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplMassHealin",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "Alchemist Spells",
+        "hint": "",
+        "_id": "6lrbwpAdeaXKq0v3"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplDeathWard0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplVitriolicS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "Alchemist Spells",
+        "hint": "",
+        "_id": "vfjWuzQpVpEqoXXq"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplCloudkill0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd-players-handbook.spells.Item.phbsplRaiseDead0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "Alchemist Spells",
+        "hint": "",
+        "_id": "rdM4Xzir87q78Mc8"
+      },
+      {
+        "type": "ScaleValue",
+        "_id": "Sv0S7b9VI2A5QEtY",
+        "configuration": {
+          "identifier": "elixir",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 2
+            },
+            "5": {
+              "value": 3
+            },
+            "9": {
+              "value": 4
+            },
+            "15": {
+              "value": 5
+            }
+          }
+        },
+        "value": {},
+        "title": "Experimental Elixir Count",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "hwd7QXBwddCPbYF4",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.katozu-5e.classes.Item.dXAHRUG8NvzfQFLj",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Features",
+        "hint": ""
+      }
+    ],
+    "classIdentifier": "artificer",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "yrdKzgXfXHeAwF97": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1753114717237,
+    "modifiedTime": 1753116195015,
+    "lastModifiedBy": "yrdKzgXfXHeAwF97"
+  },
+  "_key": "!items!gpS3CyzbMkLEDc2b"
+}

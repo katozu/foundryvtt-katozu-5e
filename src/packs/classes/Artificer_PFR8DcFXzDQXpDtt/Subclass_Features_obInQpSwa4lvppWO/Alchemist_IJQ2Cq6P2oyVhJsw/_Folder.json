@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "obInQpSwa4lvppWO",
+  "name": "Alchemist",
+  "color": null,
+  "sorting": "a",
+  "_id": "IJQ2Cq6P2oyVhJsw",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!IJQ2Cq6P2oyVhJsw"
+}

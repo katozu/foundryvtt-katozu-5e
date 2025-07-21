@@ -475,6 +475,54 @@
         "level": 2,
         "title": "Features",
         "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "sY95FCGi0hH8Ak9R",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.katozu-5e.classes.Item.UpsFHMnJS77FsCOU",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Features",
+        "hint": ""
+      },
+      {
+        "type": "Subclass",
+        "_id": "AIohl8ootXXpx9HS",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "level": 3,
+        "title": "Artificer Subclass",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "_id": "9RKG47TLqLtSOxb6",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {},
+          "pool": [],
+          "spell": null,
+          "type": "spell",
+          "restriction": {}
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "",
+        "hint": ""
       }
     ],
     "spellcasting": {
@@ -502,7 +550,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.0.4",
     "createdTime": 1752843347080,
-    "modifiedTime": 1752855165872,
+    "modifiedTime": 1753114624662,
     "lastModifiedBy": "yrdKzgXfXHeAwF97"
   },
   "_key": "!items!psfNgO4t345IT0lG"

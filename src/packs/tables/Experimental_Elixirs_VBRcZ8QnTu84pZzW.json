@@ -1,0 +1,188 @@
+{
+  "name": "Experimental Elixirs",
+  "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+  "description": "<p>You create the following experimental elixir:</p>",
+  "results": [
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "icons/consumables/potions/bottle-round-label-cork-red.webp",
+      "_id": "rdM8WZNJAlHTZlrS",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": "yrdKzgXfXHeAwF97",
+        "modifiedTime": 1753116799479
+      },
+      "name": "Healing Elixir",
+      "documentUuid": "Compendium.katozu-5e.classes.Item.d1Gehd3430ZCJNsW",
+      "description": "",
+      "_key": "!tables.results!VBRcZ8QnTu84pZzW.rdM8WZNJAlHTZlrS"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "icons/consumables/potions/bottle-round-label-cork-green.webp",
+      "_id": "roepJB54o8LWYvty",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": "yrdKzgXfXHeAwF97",
+        "modifiedTime": 1753116832095
+      },
+      "name": "Swiftness Elixir",
+      "documentUuid": "Compendium.katozu-5e.classes.Item.t01jd7xKVMyE41c9",
+      "description": "",
+      "_key": "!tables.results!VBRcZ8QnTu84pZzW.roepJB54o8LWYvty"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "icons/consumables/potions/bottle-round-label-cork-purple.webp",
+      "_id": "PC5a7CivLwRtJtlb",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": "yrdKzgXfXHeAwF97",
+        "modifiedTime": 1753116824051
+      },
+      "name": "Resilience Elixir",
+      "documentUuid": "Compendium.katozu-5e.classes.Item.IgJvH7irfTb6gwkD",
+      "description": "",
+      "_key": "!tables.results!VBRcZ8QnTu84pZzW.PC5a7CivLwRtJtlb"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "img": "icons/consumables/potions/bottle-round-label-cork-yellow.webp",
+      "_id": "ozl7HkkSVpdkBt6u",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": "yrdKzgXfXHeAwF97",
+        "modifiedTime": 1753116818397
+      },
+      "name": "Boldness Elixir",
+      "documentUuid": "Compendium.katozu-5e.classes.Item.Xju4ocUwU5WOarrh",
+      "description": "",
+      "_key": "!tables.results!VBRcZ8QnTu84pZzW.ozl7HkkSVpdkBt6u"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "img": "icons/consumables/potions/bottle-ornate-bat-teal.webp",
+      "_id": "aE1Ltv9FXCkpPJYz",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": "yrdKzgXfXHeAwF97",
+        "modifiedTime": 1753116814041
+      },
+      "name": "Flight Elixir",
+      "documentUuid": "Compendium.katozu-5e.classes.Item.MNLDWS9vSvCakkcs",
+      "description": "",
+      "_key": "!tables.results!VBRcZ8QnTu84pZzW.aE1Ltv9FXCkpPJYz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "img": "icons/consumables/potions/vial-ornet-silver-black.webp",
+      "_id": "UHJThc3cyND50fYF",
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.346",
+        "systemId": "dnd5e",
+        "systemVersion": "5.0.4",
+        "lastModifiedBy": "yrdKzgXfXHeAwF97",
+        "modifiedTime": 1753117101772
+      },
+      "name": "Your Choice",
+      "documentUuid": null,
+      "description": "<p>You determine the elixir’s effect by choosing one of the other rows in this table.</p><p></p><p>@UUID[Compendium.katozu-5e.classes.Item.d1Gehd3430ZCJNsW]{Healing Elixir}</p><p>@UUID[Compendium.katozu-5e.classes.Item.t01jd7xKVMyE41c9]{Swiftness Elixir}</p><p>@UUID[Compendium.katozu-5e.classes.Item.IgJvH7irfTb6gwkD]{Resilience Elixir}</p><p>@UUID[Compendium.katozu-5e.classes.Item.Xju4ocUwU5WOarrh]{Boldness Elixir}</p><p>@UUID[Compendium.katozu-5e.classes.Item.MNLDWS9vSvCakkcs]{Flight Elixir}</p>",
+      "_key": "!tables.results!VBRcZ8QnTu84pZzW.UHJThc3cyND50fYF"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": false,
+  "folder": null,
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1753116321700,
+    "modifiedTime": 1753117127813,
+    "lastModifiedBy": "yrdKzgXfXHeAwF97"
+  },
+  "ownership": {
+    "default": 0,
+    "yrdKzgXfXHeAwF97": 3
+  },
+  "formula": "1d6",
+  "_id": "VBRcZ8QnTu84pZzW",
+  "sort": 0,
+  "_key": "!tables!VBRcZ8QnTu84pZzW"
+}
