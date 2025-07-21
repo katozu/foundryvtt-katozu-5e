@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Tasha's Cauldron of Everything",
+  "color": null,
+  "sorting": "a",
+  "_id": "W0lZ4xYmcZgl5JYK",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "dnd5e",
+    "systemVersion": "5.0.4",
+    "createdTime": 1753102113947,
+    "modifiedTime": 1753102113947,
+    "lastModifiedBy": "yrdKzgXfXHeAwF97"
+  },
+  "_key": "!folders!W0lZ4xYmcZgl5JYK"
+}

@@ -96,13 +96,13 @@
           "Compendium.dnd-players-handbook.spells.Item.phbsplCreation00",
           "Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes",
           "Compendium.dnd-players-handbook.spells.Item.phbsplWallofSton",
-          "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeBoomingBlade",
-          "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeGreenflameBl",
-          "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeLightningLur",
-          "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeSwordBurst00",
-          "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeTashasCausti",
-          "Compendium.dnd-tashas-cauldron.tcoe-character-options.Item.tcoeIntellectFor",
-          "Compendium.foundryvtt-katozu-5e.spells.Item.R1NMb0AjP3dP8c5q"
+          "Compendium.katozu-5e.spells.Item.R1NMb0AjP3dP8c5q",
+          "Compendium.katozu-5e.spells.Item.te0hN3re66m5h0JU",
+          "Compendium.katozu-5e.spells.Item.Ks9HqVDhTeuUpKUS",
+          "Compendium.katozu-5e.spells.Item.W0Dmb8vQqfHnIChj",
+          "Compendium.katozu-5e.spells.Item.bkvjhRPonY8pjxJp",
+          "Compendium.katozu-5e.spells.Item.oqzGFo6fUaip0O8a",
+          "Compendium.katozu-5e.spells.Item.LKAXSu8ySUydxQNo"
         ],
         "unlinkedSpells": [
           {
@@ -331,7 +331,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.0.4",
         "lastModifiedBy": "yrdKzgXfXHeAwF97",
-        "modifiedTime": 1752853107619
+        "modifiedTime": 1753102372083
       },
       "_key": "!journal.pages!C5OeKSkcM954tiox.1sNuNp7poxpXT2Fr"
     }
