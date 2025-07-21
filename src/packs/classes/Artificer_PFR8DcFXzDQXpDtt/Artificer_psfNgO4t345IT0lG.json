@@ -200,11 +200,11 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.foundryvtt-katozu-5e.classes.Item.h7W0KnqqhbeEz7pW",
+              "uuid": "Compendium.katozu-5e.classes.Item.h7W0KnqqhbeEz7pW",
               "optional": false
             },
             {
-              "uuid": "Compendium.foundryvtt-katozu-5e.classes.Item.Al5NEtfmsSlHyhGY",
+              "uuid": "Compendium.katozu-5e.classes.Item.Al5NEtfmsSlHyhGY",
               "optional": false
             }
           ],
@@ -464,7 +464,7 @@
         "configuration": {
           "items": [
             {
-              "uuid": "Compendium.foundryvtt-katozu-5e.classes.Item.9RnRL1ComzW4e8JV",
+              "uuid": "Compendium.katozu-5e.classes.Item.9RnRL1ComzW4e8JV",
               "optional": false
             }
           ],

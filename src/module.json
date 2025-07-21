@@ -1,7 +1,6 @@
 {
   "id": "katozu-5e",
   "title": "Katozu-5e",
-  "version": "0.1.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -24,6 +23,13 @@
         "id": "dnd5e",
         "type": "system",
         "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id":"dnd-players-handbook",
+        "type": "module",
+        "manifest": "https://r2.foundryvtt.com/packages-public/dnd-players-handbook/module.json"
       }
     ]
   },

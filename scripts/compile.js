@@ -1,8 +1,10 @@
 import { compilePack } from "@foundryvtt/foundryvtt-cli";
-import { readdir } from 'fs/promises'
+import { readdir, readFile, writeFile } from 'fs/promises';
 
 const srcDir = "src/packs/";
 const buildDir = "build/katozu-5e/packs/";
+const srcModuleJson = 'src/module.json';
+const buildModuleJson = 'build/katozu-5e//module.json';
 
 const listDirectories = async (pth) => {
   const directories = (await readdir(pth, {withFileTypes: true}))
@@ -10,6 +12,11 @@ const listDirectories = async (pth) => {
     .map(dir => dir.name);
 
   return directories;
+};
+
+const readJson = async (pth) => {
+  const data = await readFile(pth);
+  return JSON.parse(data);
 }
 
 const packs = await listDirectories(srcDir);
@@ -19,9 +26,6 @@ packs.forEach(async directory => {
     await compilePack(srcDir + directory, buildDir + directory, {recursive: true});
 });
 
-
-
-// await compilePack("src/packs/classes", "build/katozu-5e/packs/classes", {recursive: true});
-// await compilePack("src/packs/actors", "build/katozu-5e/packs/actors", {recursive: true});
-// await compilePack("src/packs/rules", "build/katozu-5e/packs/rules", {recursive: true});
-// await compilePack("src/packs/spells", "build/katozu-5e/packs/spells", {recursive: true});
+const modulejson = await readJson(srcModuleJson);
+modulejson['version'] = process.env.npm_package_version
+await writeFile(buildModuleJson, JSON.stringify(modulejson, null, 2))
