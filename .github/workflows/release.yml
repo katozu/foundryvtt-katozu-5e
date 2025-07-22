@@ -8,14 +8,49 @@ on:
       - "v1.**"
 
 jobs:
-  build:
+  build_release:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
     - uses: actions/setup-node@v4
       with:
         node-version: lts/*
         cache: 'npm'
     - run: npm ci
+    - name: get version
+      run: echo "::set-output name=version::$(npm run version)"
+      id: version
     - run: npm run build
     - run: npm run pack
+    - name: release
+      uses: actions/create-release@v1
+      id: create_release
+      with:
+        draft: false
+        prerelease: false
+        release_name: ${{ steps.version.outputs.version }}
+        tag_name: ${{ github.ref }}
+        # body_path: CHANGELOG.md
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+    - name: upload module artifact
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./dist/katozu-5e.zip
+        asset_name: katozu-5e.zip
+        asset_content_type: application/zip
+    - name: upload manifest artifact
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./dist/module.json
+        asset_name: module.json
+        asset_content_type: application/json
+
